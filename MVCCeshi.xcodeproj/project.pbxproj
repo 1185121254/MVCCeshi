@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		64CDB0EB1ED4ADDA000DFBEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDB0EA1ED4ADDA000DFBEA /* main.m */; };
 		64CDB0EE1ED4ADDA000DFBEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDB0ED1ED4ADDA000DFBEA /* AppDelegate.m */; };
-		64CDB0F11ED4ADDB000DFBEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDB0F01ED4ADDB000DFBEA /* ViewController.m */; };
-		64CDB0F41ED4ADDB000DFBEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CDB0F21ED4ADDB000DFBEA /* Main.storyboard */; };
 		64CDB0F61ED4ADDB000DFBEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CDB0F51ED4ADDB000DFBEA /* Assets.xcassets */; };
-		64CDB0F91ED4ADDB000DFBEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CDB0F71ED4ADDB000DFBEA /* LaunchScreen.storyboard */; };
 		64CDB1041ED4ADDB000DFBEA /* MVCCeshiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDB1031ED4ADDB000DFBEA /* MVCCeshiTests.m */; };
 		64CDB10F1ED4ADDB000DFBEA /* MVCCeshiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDB10E1ED4ADDB000DFBEA /* MVCCeshiUITests.m */; };
+		64CDB1231ED4AE40000DFBEA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDB1211ED4AE40000DFBEA /* MainViewController.m */; };
+		64CDB1241ED4AE40000DFBEA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CDB1221ED4AE40000DFBEA /* MainViewController.xib */; };
+		64CDB1271ED4AE53000DFBEA /* aView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDB1261ED4AE53000DFBEA /* aView.m */; };
+		64CDB12A1ED4AE7C000DFBEA /* people.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDB1291ED4AE7C000DFBEA /* people.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +40,7 @@
 		64CDB0EA1ED4ADDA000DFBEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64CDB0EC1ED4ADDA000DFBEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64CDB0ED1ED4ADDA000DFBEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64CDB0EF1ED4ADDA000DFBEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64CDB0F01ED4ADDB000DFBEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		64CDB0F31ED4ADDB000DFBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64CDB0F51ED4ADDB000DFBEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		64CDB0F81ED4ADDB000DFBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64CDB0FA1ED4ADDB000DFBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64CDB0FF1ED4ADDB000DFBEA /* MVCCeshiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVCCeshiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CDB1031ED4ADDB000DFBEA /* MVCCeshiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCCeshiTests.m; sourceTree = "<group>"; };
@@ -51,6 +48,14 @@
 		64CDB10A1ED4ADDB000DFBEA /* MVCCeshiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVCCeshiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CDB10E1ED4ADDB000DFBEA /* MVCCeshiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCCeshiUITests.m; sourceTree = "<group>"; };
 		64CDB1101ED4ADDB000DFBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64CDB1201ED4AE40000DFBEA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../M/MainViewController.h; sourceTree = "<group>"; };
+		64CDB1211ED4AE40000DFBEA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../M/MainViewController.m; sourceTree = "<group>"; };
+		64CDB1221ED4AE40000DFBEA /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../M/MainViewController.xib; sourceTree = "<group>"; };
+		64CDB1251ED4AE53000DFBEA /* aView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aView.h; sourceTree = "<group>"; };
+		64CDB1261ED4AE53000DFBEA /* aView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aView.m; sourceTree = "<group>"; };
+		64CDB1281ED4AE7C000DFBEA /* people.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = people.h; sourceTree = "<group>"; };
+		64CDB1291ED4AE7C000DFBEA /* people.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = people.m; sourceTree = "<group>"; };
+		64CDB12B1ED4AEA1000DFBEA /* MVCCeshi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MVCCeshi-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +106,12 @@
 		64CDB0E81ED4ADDA000DFBEA /* MVCCeshi */ = {
 			isa = PBXGroup;
 			children = (
+				64CDB11D1ED4AE2B000DFBEA /* C */,
+				64CDB11E1ED4AE2B000DFBEA /* M */,
+				64CDB11F1ED4AE2B000DFBEA /* V */,
 				64CDB0EC1ED4ADDA000DFBEA /* AppDelegate.h */,
 				64CDB0ED1ED4ADDA000DFBEA /* AppDelegate.m */,
-				64CDB0EF1ED4ADDA000DFBEA /* ViewController.h */,
-				64CDB0F01ED4ADDB000DFBEA /* ViewController.m */,
-				64CDB0F21ED4ADDB000DFBEA /* Main.storyboard */,
 				64CDB0F51ED4ADDB000DFBEA /* Assets.xcassets */,
-				64CDB0F71ED4ADDB000DFBEA /* LaunchScreen.storyboard */,
 				64CDB0FA1ED4ADDB000DFBEA /* Info.plist */,
 				64CDB0E91ED4ADDA000DFBEA /* Supporting Files */,
 			);
@@ -118,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				64CDB0EA1ED4ADDA000DFBEA /* main.m */,
+				64CDB12B1ED4AEA1000DFBEA /* MVCCeshi-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +143,34 @@
 				64CDB1101ED4ADDB000DFBEA /* Info.plist */,
 			);
 			path = MVCCeshiUITests;
+			sourceTree = "<group>";
+		};
+		64CDB11D1ED4AE2B000DFBEA /* C */ = {
+			isa = PBXGroup;
+			children = (
+				64CDB1201ED4AE40000DFBEA /* MainViewController.h */,
+				64CDB1211ED4AE40000DFBEA /* MainViewController.m */,
+				64CDB1221ED4AE40000DFBEA /* MainViewController.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		64CDB11E1ED4AE2B000DFBEA /* M */ = {
+			isa = PBXGroup;
+			children = (
+				64CDB1281ED4AE7C000DFBEA /* people.h */,
+				64CDB1291ED4AE7C000DFBEA /* people.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		64CDB11F1ED4AE2B000DFBEA /* V */ = {
+			isa = PBXGroup;
+			children = (
+				64CDB1251ED4AE53000DFBEA /* aView.h */,
+				64CDB1261ED4AE53000DFBEA /* aView.m */,
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +240,7 @@
 				TargetAttributes = {
 					64CDB0E51ED4ADDA000DFBEA = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = CSHWSD3VEH;
+						DevelopmentTeam = SQH5JS2X8A;
 						ProvisioningStyle = Automatic;
 					};
 					64CDB0FE1ED4ADDB000DFBEA = {
@@ -249,9 +282,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64CDB0F91ED4ADDB000DFBEA /* LaunchScreen.storyboard in Resources */,
 				64CDB0F61ED4ADDB000DFBEA /* Assets.xcassets in Resources */,
-				64CDB0F41ED4ADDB000DFBEA /* Main.storyboard in Resources */,
+				64CDB1241ED4AE40000DFBEA /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64CDB0F11ED4ADDB000DFBEA /* ViewController.m in Sources */,
 				64CDB0EE1ED4ADDA000DFBEA /* AppDelegate.m in Sources */,
+				64CDB12A1ED4AE7C000DFBEA /* people.m in Sources */,
+				64CDB1231ED4AE40000DFBEA /* MainViewController.m in Sources */,
+				64CDB1271ED4AE53000DFBEA /* aView.m in Sources */,
 				64CDB0EB1ED4ADDA000DFBEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,25 +347,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		64CDB0F21ED4ADDB000DFBEA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64CDB0F31ED4ADDB000DFBEA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		64CDB0F71ED4ADDB000DFBEA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64CDB0F81ED4ADDB000DFBEA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		64CDB1111ED4ADDB000DFBEA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -364,6 +379,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -411,6 +427,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -429,7 +446,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CSHWSD3VEH;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = SQH5JS2X8A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chaojie/Desktop/ 工作文件夹/MVCCeshi/MVCCeshi/MVCCeshi-Prefix.pch";
 				INFOPLIST_FILE = MVCCeshi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hsy.MVCCeshi;
@@ -441,7 +461,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CSHWSD3VEH;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = SQH5JS2X8A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/chaojie/Desktop/ 工作文件夹/MVCCeshi/MVCCeshi/MVCCeshi-Prefix.pch";
 				INFOPLIST_FILE = MVCCeshi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hsy.MVCCeshi;
@@ -518,6 +541,7 @@
 				64CDB1151ED4ADDB000DFBEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64CDB1161ED4ADDB000DFBEA /* Build configuration list for PBXNativeTarget "MVCCeshiTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +550,7 @@
 				64CDB1181ED4ADDB000DFBEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64CDB1191ED4ADDB000DFBEA /* Build configuration list for PBXNativeTarget "MVCCeshiUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +559,7 @@
 				64CDB11B1ED4ADDB000DFBEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
